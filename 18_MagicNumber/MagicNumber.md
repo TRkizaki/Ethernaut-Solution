@@ -1,3 +1,7 @@
+## Ethernaut-solution
+
+### 18. MagicNumber
+
 In the EVM, there are 3 places to store data.
 
  Firstly, in the stack. We’ve just used the “PUSH” opcode to store data there as per the example above.

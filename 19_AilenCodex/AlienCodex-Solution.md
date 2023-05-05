@@ -1,3 +1,6 @@
+
+
+
 >await contract.abi
 (11) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
 0: {constant: false, inputs: Array(2), name: 'revise', outputs: Array(0), payable: false, …}
