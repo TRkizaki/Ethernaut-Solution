@@ -1,4 +1,6 @@
-12 Privacy 
+## Ethernaut-solution
+
+### 12. Privacy 
 
 The creator of this contract was careful enough to protect the sensitive areas of its storage.
 
