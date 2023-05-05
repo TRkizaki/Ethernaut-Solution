@@ -97,6 +97,8 @@ To ensure that data is private, it needs to be encrypted before being put onto t
 In this scenario, the decryption key should never be sent on-chain, as it will then be visible to anyone who looks for it. 
 zk-SNARKs provide a way to determine whether someone possesses a secret parameter, without ever having to reveal the parameter.
 
+## references
+
 https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell/
 
 
