@@ -1,8 +1,5 @@
-## Ethernaut-Solution
 
-### 14.GateKeeperTwo-Solution
-
-*Bitwise operator 
+### Bitwise operator 
 
 //using low-level operation 
 
